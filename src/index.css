@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Définir la police Glegoo */
+@layer base {
+  .font-glegoo {
+    font-family: 'Glegoo', serif;
+  }
+
+  .font-inclusive-sans {
+    font-family: 'Inclusive Sans', serif;
+  }
+}
+
+
