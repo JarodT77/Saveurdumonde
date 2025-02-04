@@ -19,16 +19,16 @@ function Reservation() {
                 <div className="border-3 border-orange-600 mt-6 rounded-xl p-6 lg:w-2/3 flex lg:flex-row gap-6">
                   
                   {/* Formulaire */}
-                  <form className="mt-4 flex flex-col items-center gap-6 lg:items-center">
+                  <form className="mt-4 flex flex-col items-center gap-6 lg:items-center pl-8">
                     <ul className="flex flex-col gap-6 w-full">
                       <li>
-                        <input type="text" id="name" placeholder="Votre nom" className="font-glegoo text-white border-orange-600 border-3 rounded-xl w-82 h-10 lg:w-96" />
+                        <input type="text" id="name" placeholder="Votre nom" className="font-glegoo text-white border-orange-600 border-3 rounded-xl w-full h-10 lg:w-96" />
                       </li>
                       <li>
-                        <input type="email" id="email" placeholder="Votre email" className="font-glegoo text-white border-orange-600 border-3 rounded-xl w-82 h-10 lg:w-96" />
+                        <input type="email" id="email" placeholder="Votre email" className="font-glegoo text-white border-orange-600 border-3 rounded-xl w-full h-10 lg:w-96" />
                       </li>
                       <li>
-                        <input type="text" id="message" placeholder="Votre message" className="font-glegoo text-white border-orange-600 border-3 rounded-xl w-82 h-32 lg:w-96" />
+                        <input type="text" id="message" placeholder="Votre message" className="font-glegoo text-white border-orange-600 border-3 rounded-xl w-full h-32 lg:w-96" />
                       </li>
                     </ul>
                     <button className="font-glegoo text-white bg-orange-600 rounded-xl px-8 py-2 mb-4 w-full lg:w-96">

@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
       return (
@@ -16,9 +16,14 @@ function Header() {
               <li className="text-orange-600 text-lg">Reservation</li>
             </ul>
         </nav>
-        <div className="pt-10 flex flex-col gap-4 lg:pt-42">
-        <button className="bg-orange-600 px-4 py-2 mx-32 text-white text-xs font-glegoo rounded-lg lg:mx-150 lg:text-lg">Decouvir la carte</button>
-        <button className="bg-orange-600 px-4 py-2 mx-32 text-white text-xs font-glegoo rounded-lg lg:mx-150 lg:text-lg">Reservation</button>
+        <div className="pt-10 flex flex-col gap-4 items-center justify-center lg:pt-42">
+        <Link to="/menu">
+        <button className="bg-orange-600 px-4 py-2 mx-32 text-white text-xs font-glegoo rounded-lg lg:text-lg lg:px-16">Decouvir la carte</button>
+        </Link>
+        <Link to="/menu">
+        <button className="bg-orange-600 px-4 py-2 mx-32 text-white text-xs font-glegoo rounded-lg lg:text-lg lg:px-16">Reservation</button>
+        </Link>
+        
         </div>   
       </header>
       );

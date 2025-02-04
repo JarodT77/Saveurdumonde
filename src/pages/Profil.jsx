@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 function Profil() {
     return(
@@ -38,8 +38,11 @@ function Profil() {
         le Saraman d’Angkor et l’Amok, véritables trésors de la gastronomie cambodgienne.
       </p>
       <div className="flex justify-center pt-6 lg:pt-8">
+      <Link to="/menu">
             <button className="relative bg-orange-600 text-white font-glegoo p-4 rounded-2xl lg:px-14 lg:text-2xl">Decouvrir la carte</button>
+      </Link>
             </div>
+
     </div>
   </div>
 
